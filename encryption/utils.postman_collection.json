@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "402a4883-4962-474c-8c71-28296bf6997b",
+		"name": "utils",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "encryption-/encryptor/gen-key-pair",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"followRedirects": false,
+				"removeRefererHeaderOnRedirect": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENCRYPTION}}/encryptor/gen-key-pair",
+					"host": [
+						"{{ENCRYPTION}}"
+					],
+					"path": [
+						"encryptor",
+						"gen-key-pair"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "encryption-/encryptor/gen-key-pair",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{ENCRYPTION}}/encryptor/gen-key-pair",
+							"host": [
+								"{{ENCRYPTION}}"
+							],
+							"path": [
+								"encryptor",
+								"gen-key-pair"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2177"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Sep 2021 08:54:41 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCuJtq9HeEF3pSk8uxjImsXcm2W\r\nuCmDibstL151tHZHryh8rDa2G/1PufQZLeuCxCtWQXrKQDwaiNjj7spHq6U1p/NJFLswpIv3RZ7e\r\nOzEeRhdBgXWiyxVBwUddn4bJtBirIZE1pD3iWp1FA+QA3a172GBNOiBOfG+3uDuPNqeWSYL9tBUB\r\naewWrE2TKc29Y+lNcv4tkYXfyo34RO0RgZQo/FzP68K+KBaagRuaXExvw5nAzV2KE4WziOPkjD2P\r\n5C7fcxXcSSsCqzdcr/Sajawcn2E2hYYMQCG8wIxD/sQFy8PE8ZMnijXBW2g+eWnyYDFcmEvEqYYW\r\noanyveJLJyH1AgMBAAECggEAPfaJIXy+Ea6OSNo+DU+zttX59AR2kNyygnM2Mr8QzpSd3S4REV6I\r\nFJPfLA5Qm2hc2wXVQJz2RaKnOQI/apzB3YNyZnA/4iDJxCM7UWrSISljIOWFC3UijRDN6ZvXA3FW\r\nzZzV47YaZq1DA8lMmJpHHadxLEkgMYzI2x9r4ZraqffKq5RP48gRW/45+hrKm/MtAEquVUh9mpvS\r\nuKlOLz3kgmkD03yD0OySRvpvkGH6wXBz3V21HBSMApWJFcFKhXFcJj6vRxkO6MsCeZZvmmf3vrWu\r\nq88wqsuzeJU4cjhQEV279AarW+ePSo34Yt4Oa+06EUcR8tLQOW32YRLq/+GzgQKBgQDszGY8OEi1\r\nHPClJxMKJoM+jN5hAc0EW6kcwy/jOEeDbR6TT1hPo6V7yaoHyjSeR6iyYofMKYxbZD9EG9JzaVfT\r\nKjceXaDfRoMt3eykPw7PiZ2Q/a0xc1fQJ+FKGbi3evl6LtdbuGFXtvcGVv2qSaNzzbryBYZu0Nb1\r\nBCPxdGab0QKBgQC8Rf/AJggPpjvpJg8G99flRjdPgikVH3Z32uc/jNCKl+1wqFY9iLAFbGCzIE3Z\r\n/WKJPUZPJ/3jJ9t31GGEsQ5fLnklH9eXfT/ppoofwbYgXvPglfeohKipXRfPIxXT38Ef04KWFfWE\r\noRfUOgQW2gkFJ72he3TTjb5prExMi7HA5QKBgFMCfDxUBrjmwj1C61u9kHiW7UXYWcRTVX8ttVXT\r\n3s3lrLg7MlwIo/Q3B5Hfgn6R5ENUYwJg9kD7bWo0zpuCrDTsMZJFhCWBFG85wsD5EfoS5ddz9gjF\r\nxFzF/iX5ylUXmOkKDpiqlAUpsILab+YIFnJ8BjLdWPjz4MbXgrob8fRhAoGBAK4kaNyH0Oj4r22F\r\noFynnfAZtEs8b1d0VJWjykVDsBihUiPj8HDWH0nE5uSIOroo3p1mKcRJj1IuqZb6wICFbG+pgrBN\r\n9ZHPbfBl9FhPSnBCo3zV+c7LdV3CF6WmJChnTDBt6Nl90iws/Od2ChZA8hrsmT/l+zc6YidIEQK0\r\nK2PpAoGAY1g9qjSRUciJigA54p6xdT51KSdpQ0/XKMNBmK2JYRDry4vA3Kcw5fEzX9WeomciRwik\r\nF2WfQsqbmw3fu0XMQjZDCzS9jpiqexGv4BwQWk4hCMHhj9NnaeEaWoWiYo0j6QaSyyIo11py7QiR\r\norlGe7jPGQF60jgQ+Y8PGh4lP3o=\n-----END PRIVATE KEY-----\n\n-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAribavR3hBd6UpPLsYyJrF3Jtlrgpg4m7\r\nLS9edbR2R68ofKw2thv9T7n0GS3rgsQrVkF6ykA8GojY4+7KR6ulNafzSRS7MKSL90We3jsxHkYX\r\nQYF1ossVQcFHXZ+GybQYqyGRNaQ94lqdRQPkAN2te9hgTTogTnxvt7g7jzanlkmC/bQVAWnsFqxN\r\nkynNvWPpTXL+LZGF38qN+ETtEYGUKPxcz+vCvigWmoEbmlxMb8OZwM1dihOFs4jj5Iw9j+Qu33MV\r\n3EkrAqs3XK/0mo2sHJ9hNoWGDEAhvMCMQ/7EBcvDxPGTJ4o1wVtoPnlp8mAxXJhLxKmGFqGp8r3i\r\nSych9QIDAQAB\n-----END PUBLIC KEY-----\n"
+				}
+			]
+		},
+		{
+			"name": "encryption-/encryptor/encrypt",
+			"protocolProfileBehavior": {
+				"followRedirects": false,
+				"removeRefererHeaderOnRedirect": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "X-Auth-Key",
+						"type": "text",
+						"value": "c41b2a496a7ff4d5e798bf552ee68c4fd5708"
+					},
+					{
+						"key": "X-Auth-Email",
+						"type": "text",
+						"value": "neiplzer@gmail.com"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "c41b2a496a7ff4d5e798bf552ee68c4fd5708"
+				},
+				"url": {
+					"raw": "{{ENCRYPTION}}/encryptor/encrypt",
+					"host": [
+						"{{ENCRYPTION}}"
+					],
+					"path": [
+						"encryptor",
+						"encrypt"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "encryption-/encryptor/encrypt",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "abcdefg"
+						},
+						"url": {
+							"raw": "{{ENCRYPTION}}/encryptor/encrypt",
+							"host": [
+								"{{ENCRYPTION}}"
+							],
+							"path": [
+								"encryptor",
+								"encrypt"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "344"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Sep 2021 09:05:17 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "cBSkExtLJevb5lJzTg63sXZbAV/Q+r5x8RRX58EdMZBc+KypOYaB1yTApx5V0Y804gPFjt4LDETMNSRZBNimPQcfTQa89329kbbFm946Jn94HA7Dlpgi/xbAtlfe6vmlcYmhhXbAe6lgAgMl8woZcU0b1kibKM/yLPO90AiTFzJKolTlpl9t0kdvQ3qydgXGzJZNbbRfdFE4HuUEmBD0h867K+yqpa02X5FybqC4ovJ2nBuwfo8ispa0Uv0uQgeAFo6/6JKKuE4BWPLzvmImpZ8cHn4RTIcCKA98NM9wRi7J6BOcfCioTj3mEgpQFeoySxfN3+ZAbPYEpiHVOgaR5w=="
+				}
+			]
+		},
+		{
+			"name": "encryption-/encryptor/decrypt",
+			"protocolProfileBehavior": {
+				"followRedirects": false,
+				"removeRefererHeaderOnRedirect": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "X-Auth-Key",
+						"type": "text",
+						"value": "c41b2a496a7ff4d5e798bf552ee68c4fd5708"
+					},
+					{
+						"key": "X-Auth-Email",
+						"type": "text",
+						"value": "neiplzer@gmail.com"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "BlBSVBjuvCLQrN2vEcVhsX40aEwqi4k/2eiOs33ZuZSWTbh/sADyAfomeFkQXqPSwhcaMgC7VUyhraMKhninXVBpHscjp1W+fK7uL9MmsAObAeG/UzofbvkHZ8vKdg3XUDjWANC7/bQhJRQ6W4lPYYjD7mu8OmAC8WSOvQbwiuZug4ZyzmqpAHs49NL2OZISyoWqY6Kq2Sg5+/eWkI157i+K+AGDyMepHquXZ1tcEKClwodnIW2BL1dpUn3+4k5mk1bEL8y09OSGcQmkn3HFRyPZhm1JFtfh4x7vNYy4TeDKqeSbnPuuxUh+Ki8+l7LABmp49CEU5xMSsOfjSWXjgA=="
+				},
+				"url": {
+					"raw": "{{ENCRYPTION}}/encryptor/decrypt",
+					"host": [
+						"{{ENCRYPTION}}"
+					],
+					"path": [
+						"encryptor",
+						"decrypt"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "encryption-/encryptor/decrypt",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "cBSkExtLJevb5lJzTg63sXZbAV/Q+r5x8RRX58EdMZBc+KypOYaB1yTApx5V0Y804gPFjt4LDETMNSRZBNimPQcfTQa89329kbbFm946Jn94HA7Dlpgi/xbAtlfe6vmlcYmhhXbAe6lgAgMl8woZcU0b1kibKM/yLPO90AiTFzJKolTlpl9t0kdvQ3qydgXGzJZNbbRfdFE4HuUEmBD0h867K+yqpa02X5FybqC4ovJ2nBuwfo8ispa0Uv0uQgeAFo6/6JKKuE4BWPLzvmImpZ8cHn4RTIcCKA98NM9wRi7J6BOcfCioTj3mEgpQFeoySxfN3+ZAbPYEpiHVOgaR5w=="
+						},
+						"url": {
+							"raw": "{{ENCRYPTION}}/encryptor/decrypt",
+							"host": [
+								"{{ENCRYPTION}}"
+							],
+							"path": [
+								"encryptor",
+								"decrypt"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Sep 2021 09:05:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "abcdefg"
+				}
+			]
+		}
+	]
+}

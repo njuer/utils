@@ -1,0 +1,16 @@
+jasypt:
+  encryptor:
+    private-key-format: PEM
+    private-key-location: classpath:private.rsa.pem
+
+jasypt-encryption:
+  encryption-algorithm: RSA
+  public-key-string: |-
+    -----BEGIN PUBLIC KEY-----
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAribavR3hBd6UpPLsYyJrF3Jtlrgpg4m7
+    LS9edbR2R68ofKw2thv9T7n0GS3rgsQrVkF6ykA8GojY4+7KR6ulNafzSRS7MKSL90We3jsxHkYX
+    QYF1ossVQcFHXZ+GybQYqyGRNaQ94lqdRQPkAN2te9hgTTogTnxvt7g7jzanlkmC/bQVAWnsFqxN
+    kynNvWPpTXL+LZGF38qN+ETtEYGUKPxcz+vCvigWmoEbmlxMb8OZwM1dihOFs4jj5Iw9j+Qu33MV
+    3EkrAqs3XK/0mo2sHJ9hNoWGDEAhvMCMQ/7EBcvDxPGTJ4o1wVtoPnlp8mAxXJhLxKmGFqGp8r3i
+    Sych9QIDAQAB
+    -----END PUBLIC KEY-----
